@@ -42,13 +42,14 @@ cd "${KUBEFLOW_KS_DIR}"
 ks registry add kubeflow "${KUBEFLOW_REPO}/kubeflow"
 
 # Install packages
-ks pkg install kubeflow/argo
+
+# ks pkg install kubeflow/argo
 ks pkg install kubeflow/core
-ks pkg install kubeflow/examples
-ks pkg install kubeflow/katib
+# ks pkg install kubeflow/examples
+# ks pkg install kubeflow/katib
 ks pkg install kubeflow/mpi-job
-ks pkg install kubeflow/pytorch-job
-ks pkg install kubeflow/seldon
+# ks pkg install kubeflow/pytorch-job
+# ks pkg install kubeflow/seldon
 ks pkg install kubeflow/tf-serving
 
 # Generate all required components
