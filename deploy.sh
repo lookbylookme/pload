@@ -47,10 +47,10 @@ ks registry add kubeflow "${KUBEFLOW_REPO}/kubeflow"
 ks pkg install kubeflow/core
 # ks pkg install kubeflow/examples
 # ks pkg install kubeflow/katib
-ks pkg install kubeflow/mpi-job
+# ks pkg install kubeflow/mpi-job
 # ks pkg install kubeflow/pytorch-job
 # ks pkg install kubeflow/seldon
-ks pkg install kubeflow/tf-serving
+# ks pkg install kubeflow/tf-serving
 
 # Generate all required components
 ks generate kubeflow-core kubeflow-core
